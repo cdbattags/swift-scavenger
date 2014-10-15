@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536ADA7519CB905B001A144F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA7419CB905B001A144F /* AppDelegate.swift */; };
+		536ADA7719CB905B001A144F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA7619CB905B001A144F /* ViewController.swift */; };
+		536ADA7A19CB905B001A144F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536ADA7819CB905B001A144F /* Main.storyboard */; };
+		536ADA7C19CB905B001A144F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536ADA7B19CB905B001A144F /* Images.xcassets */; };
+		536ADA7F19CB905B001A144F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536ADA7D19CB905B001A144F /* LaunchScreen.xib */; };
+		536ADA8B19CB905B001A144F /* ScavengerHuntGTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA8A19CB905B001A144F /* ScavengerHuntGTTests.swift */; };
+		536ADA9519CB9A91001A144F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA9419CB9A91001A144F /* ListViewController.swift */; };
+		536ADA9719CBC34D001A144F /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA9619CBC34D001A144F /* ScavengerHuntItem.swift */; };
+		536ADA9919CBD3C7001A144F /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536ADA9819CBD3C7001A144F /* ItemsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536ADA8519CB905B001A144F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536ADA6719CB905B001A144F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536ADA6E19CB905B001A144F;
+			remoteInfo = ScavengerHuntGT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		536ADA6F19CB905B001A144F /* ScavengerHuntGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScavengerHuntGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		536ADA7319CB905B001A144F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536ADA7419CB905B001A144F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		536ADA7619CB905B001A144F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		536ADA7919CB905B001A144F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		536ADA7B19CB905B001A144F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		536ADA7E19CB905B001A144F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		536ADA8419CB905B001A144F /* ScavengerHuntGTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerHuntGTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		536ADA8919CB905B001A144F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536ADA8A19CB905B001A144F /* ScavengerHuntGTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntGTTests.swift; sourceTree = "<group>"; };
+		536ADA9419CB9A91001A144F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		536ADA9619CBC34D001A144F /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		536ADA9819CBD3C7001A144F /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536ADA6C19CB905B001A144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536ADA8119CB905B001A144F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536ADA6619CB905B001A144F = {
+			isa = PBXGroup;
+			children = (
+				536ADA7119CB905B001A144F /* ScavengerHuntGT */,
+				536ADA8719CB905B001A144F /* ScavengerHuntGT */,
+				536ADA7019CB905B001A144F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536ADA7019CB905B001A144F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536ADA6F19CB905B001A144F /* ScavengerHuntGT.app */,
+				536ADA8419CB905B001A144F /* ScavengerHuntGTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536ADA7119CB905B001A144F /* ScavengerHuntGT */ = {
+			isa = PBXGroup;
+			children = (
+				536ADA7419CB905B001A144F /* AppDelegate.swift */,
+				536ADA7619CB905B001A144F /* ViewController.swift */,
+				536ADA9419CB9A91001A144F /* ListViewController.swift */,
+				536ADA9619CBC34D001A144F /* ScavengerHuntItem.swift */,
+				536ADA9819CBD3C7001A144F /* ItemsManager.swift */,
+				536ADA7819CB905B001A144F /* Main.storyboard */,
+				536ADA7B19CB905B001A144F /* Images.xcassets */,
+				536ADA7D19CB905B001A144F /* LaunchScreen.xib */,
+				536ADA7219CB905B001A144F /* Supporting Files */,
+			);
+			path = ScavengerHuntGT;
+			sourceTree = "<group>";
+		};
+		536ADA7219CB905B001A144F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536ADA7319CB905B001A144F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		536ADA8719CB905B001A144F /* ScavengerHuntGT */ = {
+			isa = PBXGroup;
+			children = (
+				536ADA8A19CB905B001A144F /* ScavengerHuntGTTests.swift */,
+				536ADA8819CB905B001A144F /* Supporting Files */,
+			);
+			name = ScavengerHuntGT;
+			path = ScavengerHuntGTTests;
+			sourceTree = "<group>";
+		};
+		536ADA8819CB905B001A144F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536ADA8919CB905B001A144F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		536ADA6E19CB905B001A144F /* ScavengerHuntGT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536ADA8E19CB905B001A144F /* Build configuration list for PBXNativeTarget "ScavengerHuntGT" */;
+			buildPhases = (
+				536ADA6B19CB905B001A144F /* Sources */,
+				536ADA6C19CB905B001A144F /* Frameworks */,
+				536ADA6D19CB905B001A144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScavengerHuntGT;
+			productName = ScavengerHuntGT;
+			productReference = 536ADA6F19CB905B001A144F /* ScavengerHuntGT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		536ADA8319CB905B001A144F /* ScavengerHuntGTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536ADA9119CB905B001A144F /* Build configuration list for PBXNativeTarget "ScavengerHuntGTTests" */;
+			buildPhases = (
+				536ADA8019CB905B001A144F /* Sources */,
+				536ADA8119CB905B001A144F /* Frameworks */,
+				536ADA8219CB905B001A144F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536ADA8619CB905B001A144F /* PBXTargetDependency */,
+			);
+			name = ScavengerHuntGTTests;
+			productName = ScavengerHuntGTTests;
+			productReference = 536ADA8419CB905B001A144F /* ScavengerHuntGTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536ADA6719CB905B001A144F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CommonCrowdLLC;
+				TargetAttributes = {
+					536ADA6E19CB905B001A144F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					536ADA8319CB905B001A144F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 536ADA6E19CB905B001A144F;
+					};
+				};
+			};
+			buildConfigurationList = 536ADA6A19CB905B001A144F /* Build configuration list for PBXProject "ScavengerHuntGT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 536ADA6619CB905B001A144F;
+			productRefGroup = 536ADA7019CB905B001A144F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536ADA6E19CB905B001A144F /* ScavengerHuntGT */,
+				536ADA8319CB905B001A144F /* ScavengerHuntGTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536ADA6D19CB905B001A144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536ADA7A19CB905B001A144F /* Main.storyboard in Resources */,
+				536ADA7F19CB905B001A144F /* LaunchScreen.xib in Resources */,
+				536ADA7C19CB905B001A144F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536ADA8219CB905B001A144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536ADA6B19CB905B001A144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536ADA7719CB905B001A144F /* ViewController.swift in Sources */,
+				536ADA7519CB905B001A144F /* AppDelegate.swift in Sources */,
+				536ADA9719CBC34D001A144F /* ScavengerHuntItem.swift in Sources */,
+				536ADA9519CB9A91001A144F /* ListViewController.swift in Sources */,
+				536ADA9919CBD3C7001A144F /* ItemsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536ADA8019CB905B001A144F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536ADA8B19CB905B001A144F /* ScavengerHuntGTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536ADA8619CB905B001A144F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536ADA6E19CB905B001A144F /* ScavengerHuntGT */;
+			targetProxy = 536ADA8519CB905B001A144F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536ADA7819CB905B001A144F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536ADA7919CB905B001A144F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		536ADA7D19CB905B001A144F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536ADA7E19CB905B001A144F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536ADA8C19CB905B001A144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		536ADA8D19CB905B001A144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536ADA8F19CB905B001A144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScavengerHuntGT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ScavengerHuntGT;
+			};
+			name = Debug;
+		};
+		536ADA9019CB905B001A144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScavengerHuntGT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ScavengerHuntGT;
+			};
+			name = Release;
+		};
+		536ADA9219CB905B001A144F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScavengerHuntGTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ScavengerHuntGTTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScavengerHuntGT.app/ScavengerHuntGT";
+			};
+			name = Debug;
+		};
+		536ADA9319CB905B001A144F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScavengerHuntGTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ScavengerHuntGTTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScavengerHuntGT.app/ScavengerHuntGT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536ADA6A19CB905B001A144F /* Build configuration list for PBXProject "ScavengerHuntGT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536ADA8C19CB905B001A144F /* Debug */,
+				536ADA8D19CB905B001A144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536ADA8E19CB905B001A144F /* Build configuration list for PBXNativeTarget "ScavengerHuntGT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536ADA8F19CB905B001A144F /* Debug */,
+				536ADA9019CB905B001A144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536ADA9119CB905B001A144F /* Build configuration list for PBXNativeTarget "ScavengerHuntGTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536ADA9219CB905B001A144F /* Debug */,
+				536ADA9319CB905B001A144F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536ADA6719CB905B001A144F /* Project object */;
+}
